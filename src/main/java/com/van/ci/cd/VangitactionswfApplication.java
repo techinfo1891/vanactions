@@ -11,7 +11,7 @@ public class VangitactionswfApplication {
 
 	@GetMapping("/testing")
 	public String testing() {
-		System.out.print("welcome to chennai........");
+		System.out.print("welcome to chennai.......>>><<<<<.........");
 		return "Welcome to Java techie world";
 	}
 	
