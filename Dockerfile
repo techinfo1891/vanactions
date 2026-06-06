@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 8085
+ADD target/vangitactions-docker.jar vangitactions-docker.jar
+ENTRYPOINT [ "java", "-jar", "/vangitactions-docker.jar" ]
