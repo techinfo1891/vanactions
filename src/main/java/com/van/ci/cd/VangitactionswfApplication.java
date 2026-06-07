@@ -12,7 +12,7 @@ public class VangitactionswfApplication {
 	@GetMapping("/testing")
 	public String testing() {
 		System.out.print("welcome to chennai.......>>><<<<<.........");
-		return "Welcome to Java techie world";
+		return "Welcome to Java techie world to java again java world....";
 	}
 	
 	public static void main(String[] args) {
